@@ -1,3 +1,61 @@
+#dog{
+  height: 100%;
+  text-align: center;
+}
+@media (max-width: 767px) {
+    .slider-size {
+        height: auto;
+    }
+    .slider-size > img {
+         width: 80%;
+    }
+}
+
+/* tablets */
+@media (max-width: 991px) and (min-width: 768px) {
+    .slider-size {
+        height: auto;
+    }
+    .slider-size > img {
+        width: 80%;
+    }
+}
+
+/* laptops */
+@media (max-width: 1023px) and (min-width: 992px) {
+    .slider-size {
+         height: 200px;
+    }
+    .slider-size > img {
+        width: 80%;
+    }
+}
+
+/* desktops */
+@media (min-width: 1024px) {
+    .slider-size {
+        height: 300px;
+    }
+    .slider-size > img {
+        width: 60%;
+    }
+html,body {
+  height:100%;
+}
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+.jumbotron {
+  background: url(public/assets/img/westTexas.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  o-background-size: cover;
+  text-align: center;
+  height: 100%;
+}
+.jumbotron .container {
+  margin-top: 10%
+}
 .navbar-default {
   background-color: #456d5d;
   border-color: #20524a;
@@ -91,8 +149,7 @@ h2{
     text-align: center;
     top: 50%;
 }
-div.glyphicon-download {
-    position: absolute;
-    top: 50%;
-    font-size: 4em;
+#work {
+  text-align: center;
+  height: 100%;
 }
